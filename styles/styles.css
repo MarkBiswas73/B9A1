@@ -1,8 +1,5 @@
 /* font link */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Open+Sans:wght@400;800&display=swap')
-
-
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Open+Sans:wght@400;800&display=swap') body {
 
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
@@ -20,6 +17,9 @@ header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
 }
 
+.intro-text{
+ display: flex;
+}
 
 #hny {
     color: #FFF;
@@ -28,7 +28,8 @@ header {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    padding: 200px 100px 0px 90px;
+    padding: 225px 0px 0px 0px;
+    margin: 0px;
 }
 
 #nypc {
@@ -37,33 +38,53 @@ header {
     font-size: 72px;
     font-weight: 900;
     text-align: center;
+    padding: 0px;
     margin: 0px;
 }
 
 /* Offer Section */
 
-.offer{
-    display: flex;
-    flex-direction: column;
-    width: 1600px;
-height: 7335px;
-align-items: center;
-padding: ;
+section{
+    padding: 0px;
+    margin: 0px;
 }
 
-#offer-txt-1{
-color: #F00;
-text-align: center;
-font-family: 'Inter', sans-serif;
-font-size: 88px;
-font-weight: 700;
-}
-#offer-txt-2{
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}  
+
+#offer-txt-1 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+#offer-txt-2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 0px;}
+
+#offer-txt-3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 30px;
+    margin: 0px;
+
 }
