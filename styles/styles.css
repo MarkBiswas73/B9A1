@@ -8,17 +8,23 @@
 
 /* banner Section */
 
-header {
+
+.Banner {
     background-repeat: no-repeat;
-    border-radius: 16px;
-    margin: 50px 190px;
+    align-items: center;
+    margin: 70px 100px;
     width: 1320px;
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+
 }
 
-.intro-text{
- display: flex;
+
+
+}
+
+.intro-text {
+    display: flex;
 }
 
 #hny {
@@ -44,7 +50,7 @@ header {
 
 /* Offer Section */
 
-section{
+section {
     padding: 0px;
     margin: 0px;
 }
@@ -53,8 +59,8 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}  
+
+}
 
 #offer-txt-1 {
     color: #F00;
@@ -74,7 +80,8 @@ section{
     font-size: 24px;
     font-weight: 500;
     padding: 5px;
-    margin: 0px;}
+    margin: 0px;
+}
 
 #offer-txt-3 {
     color: #070211;
@@ -83,8 +90,17 @@ section{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 30px;
     margin: 0px;
+}
 
+/* party section */
+
+.party {
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 70px 100px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
 }
