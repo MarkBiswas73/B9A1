@@ -1,0 +1,44 @@
+/* font link */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* banner Section */
+
+
+
+header {
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px 190px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+}
+
+.intro-text{
+
+    justify-content: space-evenly;
+
+}
+
+#hny {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 200px 100px 0px 90px;
+}
+
+#nypc {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+
+}
