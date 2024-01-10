@@ -1,6 +1,7 @@
 /* font link */
-body{
+body {
 
+    font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -17,7 +18,7 @@ header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
 }
 
-.intro-text{
+.intro-text {
 
     justify-content: space-evenly;
 
