@@ -18,6 +18,7 @@
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 
@@ -101,6 +102,7 @@ section {
     width: 1320px;
     height: 600px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    border-radius: 10px;
 }
 
 #wc-text {
@@ -135,11 +137,12 @@ section {
 /* event time-location */
 
 .event-sec {
-    margin: 70px 100px;
+    margin: 100px 100px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%), url(../resources/);
     color: #070211;
     justify-content: space-between;
     padding: 0px;
+    border-radius: 10px;
 
 }
 
