@@ -192,12 +192,8 @@ section {
 /* Coming Soon section*/
 
 .cs-sec{
-    margin: 100px 100px;
+    margin: 50px 100px;
 
-}
-
-.colum1{
-    text-align: left;
 }
 
 .Coming-soon {
@@ -216,9 +212,15 @@ section {
 .circle-frame {
     width: 300px;
     height: 300px;
-    border-radius: 463px;
+    border-radius: 400px;
     border: 15px solid #F00;
-    padding: 20px;
+    margin: 0px 141px 0px 0px;
+    padding: 10px;
+    align-items: center;
+
+    
+
+    
 }
 
 .cs-text {
@@ -230,7 +232,6 @@ section {
     text-transform: capitalize;
     text-align: left;
     margin: 10px 0px;
-
 }
 
 .cs-para {
@@ -253,6 +254,14 @@ section {
     line-height: 32px;
     text-align: left;
     margin: 10px;
+    padding: 0px 50px 0px 50px;
+}
+.cl2-img{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+margin: 10px;
     padding: 0px 0px 0px 50px;
 }
+
 
