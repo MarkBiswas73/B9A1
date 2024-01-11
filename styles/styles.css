@@ -189,5 +189,70 @@ section {
     border: 0;
 }
 
+/* Coming Soon section*/
 
+.cs-sec{
+    margin: 100px 100px;
+
+}
+
+.colum1{
+    text-align: left;
+}
+
+.Coming-soon {
+    display: flex;
+    background-image: url(/resources/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: 300px;
+    border-radius: 364.844px;
+    margin: 0px;
+
+}
+
+.circle-frame {
+    width: 300px;
+    height: 300px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+
+.cs-text {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 10px 0px;
+
+}
+
+.cs-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px 50px 0px 0px;
+}
+.cs-para2{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 10px;
+    padding: 0px 0px 0px 50px;
+}
 
