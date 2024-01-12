@@ -273,31 +273,30 @@ section {
 
 /* sale section */
 
- #func{
-color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
- }
-
-#hds{
-    
-}
- #HS50{
+#func {
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
- }
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#hds {}
+
+#HS50 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
 
 
- /* sales sec */
+/* sales sec */
 
- #func {
+#func {
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -340,5 +339,34 @@ line-height: normal;
     margin: 0;
     padding: 0;
 }
+
+.sales-sec{
+    width: 1320px;
+    height: 600px;
+    margin: 70px 100px;
+}
+
+.sale-img{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+#gift{
+    width: 50%;
+    height: 50%;
+    padding: 500px 0px 0px 0px;
+}
+
+.sale-bg {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    background-position: center;
+    /* margin: 70px 100px; */
+
+ }
+
 
 
