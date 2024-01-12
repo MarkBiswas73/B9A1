@@ -270,3 +270,75 @@ section {
     font-size: 48px;
     font-weight: 700;
 }
+
+/* sale section */
+
+ #func{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+
+#hds{
+    
+}
+ #HS50{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+ }
+
+
+ /* sales sec */
+
+ #func {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#hds {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#HS50 {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0;
+
+}
+
+#sale-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
